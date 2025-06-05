@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     padding: 1rem;
 }
 
-/* Tema escuro */
+
 body.dark {
     background-color: #121212;
     color: #e0e0e0;
