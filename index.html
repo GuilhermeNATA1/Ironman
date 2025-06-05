@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curiosidades Incríveis</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Estilo externo -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Ícone da aba -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+    <header>
+        <h1>Curiosidades Incríveis</h1>
+        <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Descubra curiosidades fascinantes sobre o mundo ao nosso redor!</p>
+        </section>
+
+        <section class="curiosidades">
+            <article class="curiosidade-card">
+                <h3>Você sabia?</h3>
+                <p>O polvo tem três corações e o sangue azul!</p>
+            </article>
+
+            <article class="curiosidade-card">
+                <h3>Fato curioso</h3>
+                <p>A Lua se afasta da Terra cerca de 3,8 cm por ano.</p>
+            </article>
+
+            <article class="curiosidade-card">
+                <h3>Inacreditável!</h3>
+                <p>Existem mais estrelas no universo do que grãos de areia em todas as praias da Terra.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site desenvolvido por <strong>Guilherme Vieira Exquece</strong> - Colégio Estadual Vicente Rijo - Londrina PR</p>
+    </footer>
+
+    <!-- Script para alternar tema -->
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark');
+        });
+    </script>
+</body>
+</html>
